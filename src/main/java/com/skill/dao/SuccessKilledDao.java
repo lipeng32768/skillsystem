@@ -3,8 +3,8 @@ package com.skill.dao;
 import com.skill.entity.SuccessKilled;
 
 /**
- * Created by Computer on 2016/6/4.
- */
+ *
+  */
 public interface SuccessKilledDao {
     /**
      * c插入购买明细,可过滤重复
