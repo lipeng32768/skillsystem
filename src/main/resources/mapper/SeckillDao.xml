@@ -8,7 +8,7 @@
     update seckill set number = number-1
     where seckill_id=#{seckillId}
     and seckill_id = #{seckillId}
-    and start_time <![CDATA [ <= ]]> #{killTime},
+    and start_time <![CDATA[<= #{killTime} ]]>  ,
     and end_time >= #{killTime}
     and number>0;
     </update>
