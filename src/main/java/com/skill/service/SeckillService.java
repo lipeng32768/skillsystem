@@ -14,6 +14,7 @@ import java.util.List;
  * Date: 2016/6/17
  * Time:{Time}
  */
+
 public interface SeckillService {
 
     /**

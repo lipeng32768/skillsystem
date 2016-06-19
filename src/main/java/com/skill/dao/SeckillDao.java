@@ -1,6 +1,7 @@
 package com.skill.dao;
 
 import com.skill.entity.Seckill;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.Date;
 import java.util.List;
@@ -15,14 +16,14 @@ public interface SeckillDao {
      * @param killTime
      * @return
      */
-    public int reduceNumber(long seckillId, Date killTime);
+    public int reduceNumber(@Param("seckillId") long seckillId, @Param("killTime") Date killTime);
 
     /**
      *
      * @param seckillId
      * @return
      */
-    public Seckill queryById(long seckillId);
+    public Seckill queryById(@Param("seckillId") long seckillId);
 
     /**
      * 根据
@@ -30,6 +31,6 @@ public interface SeckillDao {
      * @param limit
      * @return
      */
-    List<Seckill> queryAll(int offset, int limit);
+    List<Seckill> queryAll(@Param("offset") int offset, @Param("limit") int limit);
 
 }

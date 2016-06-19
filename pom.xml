@@ -78,7 +78,7 @@
       <artifactId>javax.servlet-api</artifactId>
       <version>3.1.0</version>
     </dependency>
-
+<!--Spring 核心依赖 -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
@@ -95,8 +95,8 @@
         <groupId>org.springframework</groupId>
         <artifactId>spring-context</artifactId>
         <version>4.3.0.RELEASE</version>
-        <scope>runtime</scope>
       </dependency>
+    <!-- Spring jdbc 依赖-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-jdbc</artifactId>
@@ -107,6 +107,7 @@
       <artifactId>spring-tx</artifactId>
       <version>4.3.0.RELEASE</version>
     </dependency>
+    <!-- Spring web 依赖-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
@@ -122,6 +123,12 @@
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
       <version>4.3.0.RELEASE</version>
+    </dependency>
+   <!--java @Inject -->
+    <dependency>
+      <groupId>javax.inject</groupId>
+      <artifactId>javax.inject</artifactId>
+      <version>1</version>
     </dependency>
 
 

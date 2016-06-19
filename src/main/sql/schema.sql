@@ -23,7 +23,7 @@ values
 
 /*秒杀成功明细表*/
 /*用户登录认证相关信息*/
-CREATE TABLE seccess_killed(
+CREATE TABLE success_killed(
 `seckill_id` bigint NOT NULL AUTO_INCREMENT COMMENT '秒杀商品id',
 `user_phone` bigint NOT NULL COMMENT '用户手机号',
 `state` tinyint  NOT  NULL DEFAULT -1 COMMENT '状态标志：-1 无效，0成功 1已付款 2 已发货',
